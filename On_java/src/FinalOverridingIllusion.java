@@ -20,6 +20,8 @@ class OverridingPrivate extends WithFinals {
     private void g() {
         System.out.println("OverridingPrivate.g()");
     }
+
+    ///aaa
 }
 
 class OverridingPrivate2 extends OverridingPrivate {
