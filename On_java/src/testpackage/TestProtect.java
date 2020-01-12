@@ -7,7 +7,7 @@ public class TestProtect {
         System.out.println(i);
     }
 
-    protected void printProtected() {
+    public void printProtected() {
         System.out.println("protected" + i);
         int t = new TestProtect().i;
     }
