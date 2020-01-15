@@ -26,7 +26,7 @@ class WheatMill extends Mill {
         return new Wheat();
     }
 }
-
+//协变返回类型
 public class CovariantReturn {
     public static void main(String[] args) {
         Mill m = new Mill();
