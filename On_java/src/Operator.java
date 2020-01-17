@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
 public class Operator {
-    static String []s = new String[5];
+    static int n = 1;
+    static int []s = new int [2*n];
     public static void main(String[] args) {
 //        int[] aa = new int[5];
 //        for(int i = 0; i<5;i++){
@@ -11,7 +12,8 @@ public class Operator {
 //        System.out.println(aa[1]+" "+aa[2]);
 
         System.out.println(Arrays.toString(s));
-
+        n = 2;
+        System.out.println(Arrays.toString(s));
 //        for (int x : aa) {
 //            System.out.println(x);
 //        }
