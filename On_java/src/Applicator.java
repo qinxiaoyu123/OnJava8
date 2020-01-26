@@ -12,7 +12,7 @@ class Processor {
 }
 
 class Upcase extends Processor {
-    // 返回协变类型
+    // 返回协变类型， String是Object的子类
     @Override
     public String process(Object input) {
         return ((String) input).toUpperCase();
