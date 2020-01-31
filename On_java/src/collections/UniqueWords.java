@@ -9,7 +9,7 @@ import java.util.TreeSet;
 
 public class UniqueWords {
     public static void main(String []args) throws IOException {
-        List<String> lines = Files.readAllLines(Paths.get("D:\\daima\\On_JAVA_8\\On_java\\src\\collections\\SetOperations.java"));
+        List<String> lines = Files.readAllLines(Paths.get(".\\On_java\\src\\collections\\SetOperations.java"));
         Set<String> words = new TreeSet<>();
         for(String line: lines){
             for(String word: line.split("\\W+"))
