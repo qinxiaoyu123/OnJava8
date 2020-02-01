@@ -5,20 +5,24 @@ import java.util.Deque;
 
 public class Stack<T> {
     private Deque<T> storage = new ArrayDeque<>();
-    public void push(T v){
+
+    public void push(T v) {
         storage.push(v);
     }
-    public T peek(){
+
+    public T peek() {
         return storage.peek();
     }
-    public T pop(){
+
+    public T pop() {
         return storage.pop();
     }
-    public boolean isEmpty(){
+
+    public boolean isEmpty() {
         return storage.isEmpty();
     }
-    public String toString(){
+
+    public String toString() {
         return storage.toString();
     }
-
 }
